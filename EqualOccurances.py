@@ -1,5 +1,5 @@
 # Check if All Characters Have Equal Number of Occurrences
-# Input: abacbc
+# Input: "abacbc"
 from collections import Counter
 
 def checkString(s):

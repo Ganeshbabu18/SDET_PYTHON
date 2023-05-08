@@ -1,7 +1,7 @@
 # Python program to check if the number is an Armstrong number or not
 class ArmStrong():
  def Armstrong(self):
-    num = int(input("Enter a number: "))
+    num = 371
     sum = 0
     temp = num
     while temp > 0:

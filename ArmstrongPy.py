@@ -12,6 +12,15 @@ class ArmStrong():
         print(num, "is an Armstrong number")
     else:
         print(num, "is not an Armstrong number")
+<<<<<<< HEAD
 
 arm_strong = ArmStrong()
 arm_strong.Armstrong()
+=======
+armstrongs = ArmStrong()
+<<<<<<< HEAD
+armstrongs.Armstrong()
+=======
+armstrongs.Armstrong()
+>>>>>>> 3239d1d3c040c324ba7666c5959f362c85ccb7e7
+>>>>>>> main

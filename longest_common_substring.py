@@ -9,7 +9,6 @@ def longest_common_substring(str_one: str, str_two: str) -> int:
                 max_len = max(max_len, Matrix[i][j])
     return max_len
 
-
 str_one = "abcdxyz"
 str_two = "xyzabcd"
 print(longest_common_substring(str_one, str_two))

@@ -12,5 +12,6 @@ class ArmStrong():
         print(num, "is an Armstrong number")
     else:
         print(num, "is not an Armstrong number")
-armstrongs = ArmStrong()
-armstrongs.Armstrong()
+
+arm_strong = ArmStrong()
+arm_strong.Armstrong()

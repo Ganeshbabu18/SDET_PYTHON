@@ -6,7 +6,7 @@ def longest_common_substring(str_one: str, str_two: str) -> int:
         for j in range(1, len_two + 1):
             if str_one[i - 1] == str_two[j - 1]:
                 Matrix[i][j] = Matrix[i - 1][j - 1] + 1
-                max_len = max(max_len, table[i][j])
+                max_len = max(max_len, Matrix[i][j])
     return max_len
 
 

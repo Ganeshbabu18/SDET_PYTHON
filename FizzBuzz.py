@@ -2,7 +2,6 @@
 # For numbers divisible by 3, instead of number, print Fizz
 # For numbers divisible by 5, instead of number, print Buzz
 # For numbers divisible by 3 and 5, just print FizzBuzz
-
 number = 15
 
 for i in range(1, number+1):

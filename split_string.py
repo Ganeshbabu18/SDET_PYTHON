@@ -1,3 +1,6 @@
+# Write python code to Split numeric, alphabetic and special symbols from a String
+# Input String : "aBc&123D!10"
+
 def split_string(string):
     alphabetic_chars = []
     numeric_chars = []
@@ -20,3 +23,8 @@ alphabetic, numeric, special = split_string(input_string)
 print("Alphabetic characters:", ''.join(alphabetic))
 print("Numeric characters:", ''.join(numeric))
 print("Special symbols:", ''.join(special))
+
+# output
+# Alphabetic characters: aBcD
+# Numeric characters: 12310
+# Special symbols: &!

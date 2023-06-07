@@ -1,6 +1,6 @@
 # Q: Python program to divide a string in 2 equal parts. Input string = "Ganeshbabu"
 
-def divide_string(string, n):
+def divide_strings(string, n):
     length = len(string)
     if length % n != 0:
         print("Cannot divide the string into equal parts.")
@@ -12,10 +12,10 @@ def divide_string(string, n):
 
 
 # Input
-string_to_divide = "Ganeshbabu"
+strings_to_divide = "Ganeshbabu"
 number_of_parts = 2
 
-result = divide_string(string_to_divide, number_of_parts)
+result = divide_strings(strings_to_divide, number_of_parts)
 print(result)
 
 # Output: ['Ganes', 'hbabu']
